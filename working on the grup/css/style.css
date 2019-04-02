@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#body{
+background-color: rgb(77, 104, 153);
+}
+
+.header{
+
+}
+.menu{
+    margin: 0 auto;
+    width: 400px;
+    list-style: none;
+}
+
+.menu li{
+    display: inline;
+margin-left: 20px;
+}
+
+.menu a {
+text-decoration: none;
+color: #ffffff;
+text-shadow: 4px 4px 4px black;
+font-size: 20px;
+}
+
+main{
+width: 800px;
+margin: 100px auto 0;
+}
+
+article{
+    width: 300px;
+    display: inline-block;
+}
+
+img{
+    width: 100%;
+    height: 220px;
+}
+.step{
+margin-left: 115px;
+}

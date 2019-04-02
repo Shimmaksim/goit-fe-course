@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Exo:100,400,500,700');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    font-family: 'Exo', sans-serif;
+}
+.header{
+padding: 225px 346px;
+background-image: url(../img/photo-1433354359170-23a4ae7338c6@1X.png);
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+
+}
+
+
+.header-title{
+   font-size: 60px;
+   color: rgba(40, 40, 40, 255);
+  text-align: center;
+   font-weight: 100;
+   width: 708;
+   margin: 0 auto;
+
+}
+
+.header-button{
+    background-color: #ff6d6d;
+    border: none;
+    padding: 20px 50px;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 255);
+    text-align: center;
+    font-weight: 400;
+    display:block;
+    margin: 141px auto 20px;
+}
+
+.heder-note{
+    font-weight: 400;
+    font-size: 14pt; 
+    color: rgba(40, 40, 40, 255);
+    text-align: center;
+    display:block;
+    
+}
+
+main{
+    width: 1400px;
+    margin: 0 auto;
+    
+}
+
+.new-section{
+    background-color: white;
+}
+.new-design{
+    padding-top: 200px  ;
+    margin: 0px 140px 160px 150px;
+    width: 570px;
+    background-color: #ececec;
+
+   
+}
+
+.new-design_subtitle{
+    font-size: 16px;
+    color: rgba(255, 109, 109, 255);
+    text-align: left;
+    text-transform: uppercase;
+    display: block;
+    font-weight: 400;
+}
