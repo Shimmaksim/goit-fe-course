@@ -50,28 +50,127 @@ background-attachment: fixed;
 }
 
 main{
-    width: 1400px;
+    /* width: 1400px; */
     margin: 0 auto;
     
 }
 
-.new-section{
-    background-color: white;
-}
+ .design{ 
+    background-image: linear-gradient(to right top, #e0e7f1, #bfc4ed, #bb9bdd, #c668b7, #ce1d7b);
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    /* background-attachment: fixed; */
+} 
+
 .new-design{
-    padding-top: 200px  ;
-    margin: 0px 140px 160px 150px;
-    width: 570px;
-    background-color: #ececec;
-
-   
+    padding: 200px 140px 160px 150px;
+    width: 870px;
+    background-color: #fff;   
 }
 
-.new-design_subtitle{
+.new-design_subtitle, .features_subtitle{
     font-size: 16px;
     color: rgba(255, 109, 109, 255);
     text-align: left;
     text-transform: uppercase;
     display: block;
     font-weight: 400;
+    margin-bottom: 16px;
+}
+
+.new-design_title{
+    font-size: 40px;
+    color: rgba(40, 40, 40, 255);
+    text-align: left;
+    margin-bottom: 45px;
+}
+.new-design_text{
+    font-size: 16px;
+    color: rgba(40, 40, 40, 255);
+    text-align: left;
+    margin-bottom: 40px;
+}
+.new-design_text:last-child{
+   margin-bottom: 0px;
+}
+
+.feature{
+    background-image: url(../img/BG3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 140px 0 184px;
+
+}
+.features_subtitle{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.feature-title{
+    text-align: center;
+    margin-bottom: 90px;
+}
+
+.feature-list{
+list-style: none;
+width: 1130px;
+margin: 0 auto;
+}
+
+.feature_title-item{
+display: inline-block;
+width: 342px;
+margin-right: 46px;
+
+}
+
+.feature_title-item:last-child{ 
+    margin-right: 0px; 
+}
+
+.feature_title-item h3{
+    font-weight: 400;
+    font-size: 22px;
+    color: rgba(40, 40, 40, 255);
+    text-align: center;
+    margin-bottom: 19px;
+}
+    
+.feature_title-item p{
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(40, 40, 40, 255);
+    text-align: center;
+  
+
+}
+
+.feature_title-item:nth-child(2)::before{
+    content:'';
+    margin: 0 auto 30px;
+    display: block;
+    width: 65px;
+    height: 65px;
+    background-image: url(../img/airplane@1X.png);
+
+}
+
+.feature_title-item:nth-child(1)::before{
+    content:'';
+    margin: 0 auto 30px;
+    display: block;
+    width: 65px;
+    height: 65px;
+    background-image: url(../img/picture@1X.png);
+
+}
+
+.feature_title-item:nth-child(3)::before{
+    content:'';
+    margin: 0 auto 30px;
+    display: block;
+    width: 65px;
+    height: 65px;
+    background-image: url(../img/bulb@1X.png);
+
 }
