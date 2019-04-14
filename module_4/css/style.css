@@ -5,7 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
 }
 
 /* .header{
@@ -115,7 +115,7 @@ background-color: aqua;
     width: 1112px;
     margin: 0 auto;
     display: inline-block;
-    
+    margin-top: 35px;
     
 }
 
@@ -140,7 +140,7 @@ background-color: aqua;
     text-transform: uppercase; 
     display: block;
     float: left;
-    margin-top: 35px;
+    /* margin-top: 35px; */
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
 }
@@ -158,7 +158,7 @@ background-color: aqua;
     margin: 0 auto;
     text-transform: uppercase;
     float:right;
-    margin-top: 45px;
+    padding-top: 20px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
 }
@@ -189,7 +189,7 @@ background-color: aqua;
     color: rgba(81, 81, 81, 255);
     text-align: center;
     display: block;
-    margin-top: 111px;
+    padding-top: 111px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
 }
@@ -224,8 +224,12 @@ background-color: aqua;
 
 .item:nth-child(n+5){
     margin-top: 30px;
+    margin-bottom: 0;
 }
 
+.url{
+    display: block;
+}
 
 .name{
     font-size: 18px;
@@ -271,9 +275,13 @@ background-color: aqua;
 }
 
 .item:nth-of-type(5){
-    margin-left: 0px
+    margin-left: 0px;
+    
 }
 
+.section_2{
+    margin-bottom: 100px;
+}
 
 .big_2{
     font-size: 48px;
@@ -283,6 +291,7 @@ background-color: aqua;
     margin: 0 auto;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
+    margin-top: 105px;
     
 }
 
@@ -356,8 +365,14 @@ background-color: aqua;
     border: none;
     border-radius: 4%;
     margin-top: 16px;
-    margin-bottom: 100px;
+    /* margin-bottom: 100px; */
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
 
+}
+
+
+.url_a{
+    text-decoration: none;
+    color: white;
 }
