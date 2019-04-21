@@ -111,27 +111,30 @@ background-color: aqua;
 
 
 .header{
-    font-size: 0;
+    /* font-size: 0; */
     width: 1112px;
     margin: 0 auto;
     display: inline-block;
-    margin-top: 35px;
+    padding-top: 35px;
     
 }
 
 
 .clearfix {
-    content: “”;
+    content: "";
     display: table;
     clear: both;
 }
 
 
 /* .nav{
-    position: fixed
+   
 } */
 
-
+.mart{
+    text-decoration: none;
+    color:#555252;
+}
 
 .big{
     font-size: 30px;
@@ -163,8 +166,13 @@ background-color: aqua;
     font-weight: 700;
 }
 .nav_bar li{
-    display:inline-block;
-    padding-right: 30px;
+    /* display:inline-block; */
+    float: left;
+   margin-right: 30px;
+}
+
+.nav_bar li:nth-of-type(6){
+    margin-right: 0;
 }
 
 .nav_bar a{
@@ -180,9 +188,13 @@ background-color: aqua;
     width: 1112px;
     display: block;
     margin: 0 auto;
-    font-size: o;
+    font-size: 0;
 }
 
+.section_1{
+    
+   padding-bottom: 105px;
+}
 
 .h2_1{
     font-size: 48px;
@@ -202,7 +214,8 @@ background-color: aqua;
     width: 164px;
     margin: 0 auto;
     background-color: #1abc9c;
-   margin-top: 32px;
+    margin-top: 32px;
+    margin-bottom: 92px;
     
     
 } 
@@ -216,9 +229,9 @@ background-color: aqua;
 .item{
     display: block;
     width: 255px;
-    height: 322px;
+    height: 362px;
     float: left;
-    margin: 92px auto;
+    margin: 0 auto;
     margin-left: 30px;
 }
 
@@ -280,6 +293,7 @@ background-color: aqua;
 }
 
 .section_2{
+    display: block;
     margin-bottom: 100px;
 }
 
@@ -291,7 +305,7 @@ background-color: aqua;
     margin: 0 auto;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
-    margin-top: 105px;
+    /* margin-top: 105px; */
     
 }
 
