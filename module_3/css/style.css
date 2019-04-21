@@ -7,7 +7,13 @@
 }
 
 
-
+.header{
+   padding-top: 77px;
+   width: 900px;
+   margin: 0 auto;
+   padding-bottom: 103px;
+  
+}
 
 
 
@@ -16,34 +22,48 @@
 .nav{
     list-style: none;
     margin: 0 auto;
-    width: 666px; 
-    margin-top: 77px;
-   
-    
-    margin-bottom: 103px;
+    font-size: 0;
+    width: 554px;
 }
 
+
+.point{
+    margin: 0 auto;
+} 
+
 li {
-    display: inline;
-    margin-left: 100px;
+    display: inline-block;;
+    margin-right: 100px;
 }
-a{
+
+li:nth-child(n+4){
+    margin-right: 0;
+}
+.url-nav{
+    
+    display: inline-block;
     text-decoration: none;
     font-size: 14px;
     color: rgba(98, 98, 98, 255);
     text-align: center;
     font-family: 'Playfair Display', serif;
 }
-.stiv{
-    font-size: 14px;
+.url-nav:hover{
     color: #03a9f4;
-    text-align: center;
 }
 
-.main{
-    width:904px;
-    margin: 100px auto 0; 
+.main {
+    width: 900px;
+    margin: 0 auto;
+    font-size: 0;
+    
+  
 }
+
+.section{
+    padding-bottom: 100px;
+}
+
 
 .block{
     display: inline-block;
@@ -64,13 +84,16 @@ a{
     margin-bottom:  0px;
 }
 
+.photo{
+    margin-bottom: 31px;
+}
 
 .lifestyle{
     font-size: 14px;
     color: rgba(180, 173, 158, 255);
     text-align: left;
     text-transform: uppercase;
-    margin: 31px 0 28px;
+    margin: 0 0 28px;
     font-family: 'Playfair Display', serif;
 }
 .h3{
@@ -88,15 +111,28 @@ a{
     font-family: 'Playfair Display', serif;
 }
 
-
+.footer{
+    padding-top: 54px;
+}
 
   
-.footer-button{
+ .footer-button{
+     display: block;
+     margin: 0 auto;
+     width: 164px;
+     height: 60px;
+     /* margin-top: 30px; */
+
+ }
+   
+   
+
+.button-url{
+    align-items: center;
+    text-decoration: none;
     font-size: 20px;
     color: rgba(98, 98, 98, 255);
     text-align: center;
-    padding: 21px 34px; 
     font-family: 'Playfair Display', serif;
-    margin: 54px 370px 70px 370px;
+    /* padding: 21px 34px; */
 }
-   
