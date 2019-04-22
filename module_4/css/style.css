@@ -111,12 +111,10 @@ background-color: aqua;
 
 
 .header{
-    /* font-size: 0; */
+     font-size: 0; 
     width: 1112px;
     margin: 0 auto;
-    display: inline-block;
     padding-top: 35px;
-    
 }
 
 
@@ -127,9 +125,13 @@ background-color: aqua;
 }
 
 
-/* .nav{
-   
-} */
+ .nav{
+    width: 1112px;
+    margin: 0 auto;
+    display: inline-block;
+    /* padding-top: 35px;
+     */
+} 
 
 .mart{
     text-decoration: none;
@@ -176,6 +178,7 @@ background-color: aqua;
 }
 
 .nav_bar a{
+    display: block;
     text-decoration: none;
     color: #0f0101;
 }
@@ -204,6 +207,7 @@ background-color: aqua;
     padding-top: 111px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
+    margin-bottom: 92px;
 }
 
 
@@ -215,7 +219,7 @@ background-color: aqua;
     margin: 0 auto;
     background-color: #1abc9c;
     margin-top: 32px;
-    margin-bottom: 92px;
+    /* margin-bottom: 92px; */
     
     
 } 
