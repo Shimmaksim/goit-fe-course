@@ -158,12 +158,20 @@ display: flex;
 
 .list-title{
     display: flex;
+    align-items: center;
+    justify-content: center;
     font-family:  'Open Sans', sans-serif;
+    width: 33.33%;
     font-weight: 400;
     font-size: 32px;
     color: rgba(101, 101, 101, 255);
-    margin-bottom: 38px;
-    
+    padding-bottom: 38px;
+    border-bottom: 1px solid #c9c9c9;
+    margin-bottom: 100px;
+}
+
+.list-title:hover{
+    border-bottom: 2px solid #99c50a;
 }
 
 .list-title::before{
@@ -205,4 +213,121 @@ display: flex;
 
 .list-title:hover::before{
     background-color:#add136; 
+}
+
+
+.projects{
+    display: flex;
+    width: 872px;
+    margin: 65px auto 108px;
+
+}
+
+.project-box{
+/* display: flex;
+flex-direction: column; */
+width: 872px;
+padding-left: 220px;
+position: relative;
+}
+
+
+.project-box::before{
+    position: absolute;
+    top: 22px;
+    left: 0;
+    content: '';
+    display: block;
+    background-image: url(../img/glasses@1X.png);
+    width: 114px;
+    height: 102px;
+    margin-right: 104px;
+    background-size: cover;
+}
+.project-title{
+    font-size: 25px;
+    color: rgba(173, 209, 54, 255);
+    font-family:  'Open Sans', sans-serif;
+    margin-bottom: 34px;
+}
+
+.project-text{
+    font-size: 18px;
+    color: rgba(96, 96, 96, 255);
+    font-family:  'Open Sans', sans-serif;
+}
+
+
+.advantage-list{
+    display: flex;
+    list-style: none;
+    width: 1296px;
+    margin: 0 auto;
+}
+
+.advantage-box{
+    position: relative;
+    width: 648px;
+    padding: 46px 73px 46px 320px;
+}
+
+.advantage-item{
+    /* padding: 46px 73px 46px; */
+    width: 50%;
+    background-color: #e2f8ff;
+    
+}
+.advantage-item:last-child{
+    
+    background-color:#f5f9eb;
+}
+.advantage-box::before{
+content: '';
+position: absolute;
+top: 50px;
+left: 140px;
+width: 134px;
+height: 140px;
+background-image: url(../img/Vector\ Smart\ Object@1X.png);
+background-repeat: no-repeat;
+}
+
+.advantage-title{
+   font-size: 24px;
+    color: rgba(81, 81, 81, 255);
+    font-family:  'Open Sans', sans-serif;
+    font-weight: 400;
+    margin-bottom: 34px;
+}
+
+
+.advantage-text{
+    font-size: 18xt;
+    color: rgba(81, 81, 81, 255);
+    font-family:  'Open Sans', sans-serif;
+    margin-bottom: 30px;
+}
+
+.advantage-bth{
+    background-color: #26a6d1;
+    font-size: 19px;
+    color: rgba(255, 255, 255, 255);
+    border-radius: 10px;
+    font-weight: 600;
+    padding: 20px 26px;
+    border: none;
+    font-family:  'Open Sans', sans-serif;
+
+}
+.project-box:last-child::before{
+    position: absolute;
+    top: 22px;
+    left: 0;
+    content: '';
+    display: block;
+    background-image: url(../img/Vector\ Smart\ Object@1X\ \(1\).png);
+    width: 114px;
+    height: 102px;
+    margin-right: 104px;
+    background-size: cover;
 }
