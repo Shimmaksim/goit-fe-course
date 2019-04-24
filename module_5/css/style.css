@@ -9,6 +9,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* outline: 1px solid red; */
 }
 /* }
 header{
@@ -172,6 +173,7 @@ header{
        background-image: url(../img/slide4@1X.png);
     background-repeat: no-repeat;
     background-size: cover;
+    /* margin-bottom: 100px; */
     
    }
 
@@ -179,7 +181,7 @@ header{
     position: relative;
     width: 1440px;
     height: 600px; 
-    margin: 0 auto;
+    /* margin: 0 auto; */
     
    }
 
@@ -197,7 +199,7 @@ header{
       display: block;
       position: absolute;
       top: 218px;
-      left: 350px;
+      left: 370px;
       z-index: 74;
       
   }
@@ -251,16 +253,266 @@ header{
     background-color: #1abc9c;
     border:none;
     top: 240px;
-    right: 170px;
+    right: 140px;
     opacity: 0.711;
     cursor: pointer;
     z-index: 2;
+}
+
+.clic1:hover{
+background-color: #1abc9c;
+opacity: 1;
+}
+
+
+.clic2:hover{
+    background-color: #1abc9c;
+    opacity: 1;
 }
 
 
 
 /* секцыя 2 */
 
-  
-  
+.section-two{
+    background-color: #e9f0fd;
+    padding-top: 100px;
+    font-size: 0;
+}
 
+.fone-two{
+    display: block;
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.big_2{
+display: block;
+text-align: center;
+font-size: 48pX;
+color: rgba(81, 81, 81, 255);
+font-family: 'Roboto', sans-serif;
+font-weight: 900;
+padding-bottom: 80px;
+
+}
+
+.big_2::after{
+    content:'';
+    display: block;
+    width: 167px;
+    height: 7px;
+    background-color: #1abc9c;
+    margin: 0 auto;
+    margin-top: 32px;
+}
+
+.model{
+    list-style: none;
+    margin: 0 auto;
+    font-size: 0;
+    background-color: #e9f0fd;
+    padding-bottom: 96px;
+}
+
+.model-list{
+    display: block;
+    float: left;
+    position: relative;
+    /* width: 255px; */
+    height: 322px;
+    margin-left: 30px;
+   
+   
+}
+
+.img-model{
+    width: 255px;
+    height:322px ;
+}
+
+
+.model-list:first-child{
+    margin-left: 0;
+}
+
+.model-list a{
+    text-decoration: none;
+}
+
+.name{
+    display: block;
+    float: left;
+    width: 200px;
+    height: 40px;
+    background-color:  rgb(50, 50, 50);
+    padding: 10px 30px 10px 12px;
+    color: white;
+    font-size: 17px;
+    font-weight: 900;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+
+.prise{
+    display: block;
+    float: right;
+    padding: 12px;
+    background-color: #8c8c8c;
+    font-size: 18px;  
+    width: 55px;
+    height: 40px;
+    font-weight: 900;
+    color: white;
+    cursor: pointer;
+}
+
+
+.model-list:hover .name{
+background-color: #1abc9c;
+}
+
+.model-list:hover .prise{
+    background-color: #7fd9c7;
+    
+}
+
+
+.hover-fon{
+    width: 255px;
+    height: 322px;
+    border-width: 10px;
+    border-color: rgba(255, 255, 255,0);
+    border-style: solid;
+    background-color: rgba(0, 0, 0,0);
+    position: absolute;
+}
+
+
+.model-list:hover .hover-fon{
+    background-color: rgba(0, 0, 0,50%);
+    border-color: rgba(255, 255, 255,90%);
+    display: block;  
+}
+
+.model-list:hover .heart{
+    display: block;
+}
+
+.model-list:hover .strelka{
+    display: block;
+}
+
+.model-list:hover .time{
+    display: block;
+}
+
+.model-list:hover .add{
+    display: block; 
+}
+
+
+
+
+.heart{
+    background-image: url(../img/321.png);
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color:rgba(0, 0, 0,0%);
+    border-color: #ffffff;
+    border-width: 1px;
+    border-style: solid;
+    width: 52px;
+    height: 52px;
+    padding: 15px 13px;
+    cursor: pointer;
+    display: none;
+    top: 89px;
+    left: 30px;
+}
+
+.heart:hover{
+background-color: #1abc9c;
+}
+
+.strelka{
+    background-image: url(../img/123.png);
+    position: absolute;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color:rgba(0, 0, 0,0%);
+    border-color: #ffffff;
+    border-width: 1px;
+    border-style: solid;
+    width: 52px;
+    height: 52px;
+    padding: 15px 13px;
+    cursor: pointer;
+    display: none;
+    top: 89px;
+    left: 89px;
+}
+
+.strelka:hover{
+background-color: #1abc9c;
+}
+
+.time{
+    background-image: url(../img/213.png);
+    position: absolute;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color:rgba(0, 0, 0,0%);
+    border-color: #ffffff;
+    border-width: 1px;
+    border-style: solid;
+    width: 52px;
+    height: 52px;
+    padding: 15px 13px;
+    cursor: pointer;
+    display: none;
+    top: 89px;
+    right: 35px;
+}
+
+.time:hover{
+    background-color: #1abc9c;
+}
+
+.add{
+    position: absolute;
+    display: none;
+    width: 170px;
+    height: 55px;
+    background-color:rgba(0, 0, 0,0%);
+    background-repeat: no-repeat;
+    top: 146px;
+    left: 30px;
+    background-position: left;
+    position: relative;
+    cursor: pointer;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.add:hover{
+    background-color: #323232;
+}
+
+.text-in{
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 14px;
+    padding: 20px 18px 20px 53px;
+}
+
+
+.photo-in{
+    position: absolute;
+    top: 12px;
+    left: 15px;
+}
