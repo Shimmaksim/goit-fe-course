@@ -1,0 +1,175 @@
+@font-face{
+    font-family: "Montserrat";
+    src: url(../fonts/Montserrat-Bold.ttf) format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "Montserrat";
+    src: url(..//fonts/Montserrat-Regular.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "PT Serif";
+    src: url(../fonts/PT_Serif-Web-Regular.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    background-image: linear-gradient(
+        rgba(168,28,15,0.5 )0%,
+        rgba(215,53,15,0.5 )100%
+    ),
+    url(../img/Layer\ 13@1X.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.header{
+    padding-top: 38px;
+    margin: 0 auto;
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-img{
+    height: 94px;
+    width: 290px;
+}
+
+.header-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 536px;
+    list-style: none;
+    text-transform: uppercase;
+
+}
+
+.menu-item{
+    padding: 11px 15px;
+    border-radius: 5px;
+}
+
+.menu-item:hover{
+background-color: #000;
+}
+
+.menu-link{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Montserrat' , sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+   
+}
+
+
+.tittle-wrapper{
+    padding: 132px 0 156px;
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.title{
+    font-family: 'Montserrat' , sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 82px;
+    width: 483px;
+    text-transform: uppercase;
+    line-height: 70px;
+    margin-bottom: 48px;
+}
+
+.title span{
+    color: #fff;
+}
+
+.text{
+    font-family: 'PT Serif' , serif;
+    font-weight: 400;
+    font-size: 20px;
+    width: 483px;
+    color: #fff;
+}
+
+.header-form{
+    
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 400px;
+    background-color: #fff;
+    border-radius: 5px;
+    /* top:143px; */
+
+}
+
+.form-tittle{
+    font-family: 'Montserrat' , sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    text-align: center;
+    padding: 33px 0 37px;
+}
+
+input{
+    display: block;
+    width: 352px;
+    padding: 19px;
+   background-color: #eee;
+   margin: 0 auto;
+   margin-bottom: 16px;
+   border: none;
+   border-radius: 5px;
+   font-family: 'PT Serif' , serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+
+input::placeholder{
+    font-family: 'PT Serif' , serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgba(181, 181, 181, 255);
+    text-align: left;
+}
+
+input[type="checkbox"]{
+    width: 10px;
+    margin: 0 22px 0 0;
+    
+}
+
+.form-lable{
+    width: 352px;
+    display: flex;
+    margin: 0 auto 20px;
+    align-items: center;
+    font-family: 'PT Serif' , serif;
+    font-weight: 400;
+    font-size: 20px;
+
+}
+
+
+
