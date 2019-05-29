@@ -18,7 +18,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* outline: 2px solid red; */
+    
 }
 
 
@@ -132,12 +132,13 @@ justify-content: space-between;
 .header{
     width: 1200px;
     margin: 0 auto;
-    padding-bottom: 113px;
+   
 }
 
 .nav{
     display: flex;
     justify-content: space-between;
+    min-height: 178px;
 }
 
 .logo-nav{
