@@ -1,3 +1,6 @@
+
+
+
 @font-face {
     font-family: 'Wisdom-Script';
     src: url(../fonts/WisdomScriptAJ.ttf);
@@ -244,6 +247,8 @@
     font-size: 14px;
     font-family: 'Montserrat-Bold';
     font-weight: 700;
+    resize: none;
+
 }
 
 .button{

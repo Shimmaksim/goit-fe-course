@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: #24242c;
+    
+}
+
+.wr-header{
+    width: 597px;
+    display: flex;
+    margin: 0 auto;
+    padding: 20px 0;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 110px;
+    height: 40px;
+}
+
+.unsubscribe{
+    background-color: transparent;
+    border: none;
+    color: #97999b;
+    font-size: 14px;
+}
+
+.luxo{
+    background-color: #e0ad2f;
+    text-align: center;
+    padding-bottom: 96px;
+}
+
+.luxo__title{
+    padding-top: 120px;
+    font-size: 36px;
+    color: #ffffff;
+    margin-bottom: 24px;
+}
+
+.luxo__subtitle{
+    margin-bottom: 33px;
+    color: #24242c;
+    font-size: 16px;
+
+}
+
+.button{
+    padding: 14px 40px;
+    border-radius: 5px;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+}
+
+.button--black{
+    background-color: #24242c;
+}
+
+.button--orange{
+    background-color: orange;
+    color: #24242c;
+}
+
+
+.wrapper{
+    margin: 28px 0;
+}
+
+
+.offer-list{
+    width: 600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.offer-item___img{
+    width: 190px;
+    height: 150px;
+    margin-bottom: 18px;
+}
+
+.offer-item__title{
+    color: #24242c;
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+.offer-item__subtitle{
+    display: flex;
+
+    font-size: 14px;
+    color: rgba(151, 153, 155, 255);
+    margin-bottom: 18px;
+}
+
+.offer-item__subtitle::before{
+    content: "";
+    margin-right: 6px;
+    display: block;
+    height: 14px;
+    width: 10px;
+    background-image: url(../img/Icon@1X.png)
+}
+
+.offer-item__text{
+    font-size: 14px;
+    color: rgba(151, 153, 155, 255);
+    text-align: left;
+    width: 168px;
+    margin-bottom: 18px;
+}
+
+.offer-item__price{
+    color: #24242c;
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+
+.btn-price{
+    color: #ffb600;
+    font-size: 14px;
+    background-color: #24242c;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 14px;
+}
+
+.life{
+    background-color:#47474e;
+    margin: 0 auto;
+    padding: 76px 0 48px;
+    text-align: center;
+
+}
+
+.life__title{
+    font-size: 36pt;
+    color: rgba(255, 255, 255, 255);
+    margin-bottom: 26px;
+}
+
+.life__title--yellow{
+color:#ffb600;
+    
+}
+
+/* .offer-table{
+    margin: 0 auto;
+    width: 800px;
+} */
+
+.offer-item--line-revers{
+    display:flex;
+    flex-direction: row-reverse;
+
+}
+
+.offer-item___img--big{
+    width: 50%;
+    height: auto;
+}
+
+.subwrapper{
+    padding: 83px 95px 92px 83px;
+}
+
+
+

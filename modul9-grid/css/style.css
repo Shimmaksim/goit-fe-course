@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-auto-rows: minmax(100px, auto) 100;
+    grid-gap: 20px;
+    justify-items: center;
+    align-items: center;
+}
+
+.box{
+    background-color: chartreuse;
+    padding: 1rem;
+    justify-self: flex-end;
+    grid-row: 1/3
+}
+
+.block{
+    background-color: khaki;
+    padding: 1rem;
+    justify-self: flex-start;
+}
