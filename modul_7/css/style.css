@@ -306,7 +306,7 @@
 }
 
 .text[required]:valid{
-    border: 2px soloid green;
+    border: 2px solid green;
 
 }
 
@@ -314,22 +314,22 @@
 
 
 .subject[required]:valid{
-    border: 2px soloid green;
+    border: 2px solid green;
 
 }
 
 .email[required]:valid{
-    border: 2px soloid green;
+    border: 2px solid green;
 
 }
 
 .Yourmessage[required]:valid{
-    border: 2px soloid green;
+    border: 2px solid green;
 
 }
 
 .text[required]:invalid{
-    border: 2px soloid red;
+    border: 2px solid red;
 
 }
 
@@ -337,17 +337,17 @@
 
 
 .subject[required]:invalid{
-    border: 2px soloid red;
+    border: 2px solid red;
 
 }
 
 .email[required]:invalid{
-    border: 2px soloid red;
+    border: 2px solid red;
 
 }
 
 .Yourmessage[required]:invalid{
-    border: 2px soloid red;
+    border: 2px solid red;
 
 }
 
