@@ -101,14 +101,14 @@
     margin: 0 auto;
 }
 
-.h1-section{
+.h2-section{
     display: flex;
     justify-content: center;
     text-transform: uppercase;
     font-size: 36px;
     color: rgba(34, 34, 34, 255);
     text-align: center;
-    padding-bottom: 19px;
+    margin-bottom: 19px;
     font-family: 'Montserrat-Bold';
     font-weight: 700;
 
@@ -174,14 +174,14 @@
     margin: 0 auto;
 }
 
-.h1-section2{
+.h2-section2{
     display: flex;
     justify-content: center;
     text-transform: uppercase;
     font-size: 36px;
     color: #ffffff;
     text-align: center;
-    padding-bottom: 19px;
+    margin-bottom: 19px;
     font-family: 'Montserrat-Bold';
     font-weight: 700;
 }
@@ -305,5 +305,49 @@
     font-weight: 700;
 }
 
+.text[required]:valid{
+    border: 2px soloid green;
 
+}
+
+
+
+
+.subject[required]:valid{
+    border: 2px soloid green;
+
+}
+
+.email[required]:valid{
+    border: 2px soloid green;
+
+}
+
+.Yourmessage[required]:valid{
+    border: 2px soloid green;
+
+}
+
+.text[required]:invalid{
+    border: 2px soloid red;
+
+}
+
+
+
+
+.subject[required]:invalid{
+    border: 2px soloid red;
+
+}
+
+.email[required]:invalid{
+    border: 2px soloid red;
+
+}
+
+.Yourmessage[required]:invalid{
+    border: 2px soloid red;
+
+}
 
