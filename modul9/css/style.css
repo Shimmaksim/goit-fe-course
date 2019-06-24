@@ -73,7 +73,7 @@
   
   .h2-header{
     text-align: center;
-    padding-bottom: 38px;
+    margin-bottom: 38px;
     font-size: 20px;
     color: rgba(255, 255, 255, 255);
     font-family: 'Montserrat-Bold';
@@ -259,7 +259,7 @@
   font-size: 14px;
   color: rgba(102, 102, 102, 255);
   text-align: center;
-  width: 218px;
+  width: 187px;
   padding-bottom: 28px;
   font-family: 'Roboto-Light';
   font-weight: 300; 
