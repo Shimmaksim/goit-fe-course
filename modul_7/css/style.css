@@ -156,6 +156,47 @@
     
 }
 
+.img-1::before{
+    content: '';
+    display: block;
+    background-image: url(../img/img1.png);
+   margin: 0 auto;
+   width: 75px;
+   height: 90px;
+   background-repeat: no-repeat;
+   
+}
+
+.img-2::before{
+    content: '';
+    display: block;
+    background-image: url(../img/img2.png);
+   margin: 0 auto;
+   width: 75px;
+   height: 90px;
+   background-repeat: no-repeat;
+   
+   
+}
+
+
+.img-3::before{
+    content: '';
+    display: block;
+    background-image: url(../img/img3.png);
+   margin: 0 auto;
+   width: 75px;
+   height: 90px;
+   background-repeat: no-repeat;
+   
+}
+
+
+
+
+
+
+
 .p-li-section1{
     text-align: center;
     font-size: 12px;
@@ -313,10 +354,7 @@
 
 
 
-.subject[required]:valid{
-    border: 2px solid green;
 
-}
 
 .email[required]:valid{
     border: 2px solid green;
@@ -336,10 +374,7 @@
 
 
 
-.subject[required]:invalid{
-    border: 2px solid red;
 
-}
 
 .email[required]:invalid{
     border: 2px solid red;
