@@ -67,7 +67,7 @@
     list-style: none; 
 }
 
-.nav__item__link{
+.nav__link{
     text-decoration: none;
     text-transform: uppercase;
     font-size: 14px;
@@ -165,7 +165,7 @@
     margin-top: 12px;
 }
 
-.nav__item__link:hover{
+.nav__link:hover{
     color:  #fce38a;
 }
 
